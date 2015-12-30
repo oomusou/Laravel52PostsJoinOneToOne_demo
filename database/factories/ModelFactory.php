@@ -26,3 +26,4 @@ $factory->define(App\Post::class, function (Faker\Generator $faker) {
         'content' => $faker->paragraph,
     ];
 });
+

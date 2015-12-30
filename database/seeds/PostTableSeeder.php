@@ -9,7 +9,6 @@ class PostTableSeeder extends Seeder
     /** @var Generator */
     private $faker;
 
-
     /**
      * PostTableSeeder constructor.
      *
@@ -29,6 +28,5 @@ class PostTableSeeder extends Seeder
                 'content' => $this->faker->paragraph,
             ]);
         });
-
     }
 }
