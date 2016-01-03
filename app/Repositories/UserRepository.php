@@ -14,7 +14,7 @@ class UserRepository
     {
         return User::join('posts', 'users.id', '=', 'posts.user_id')
             ->where('users.id', '>', 2)
-            ->where('users.id', '<', 6)
+            ->where('posts.id', '<', 6)
             ->get();
     }
 }
